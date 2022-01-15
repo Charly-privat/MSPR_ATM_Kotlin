@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginStart="@dimen/defaultMarginLeftRight"
+        android:layout_marginTop="@dimen/defaultMarginTopBottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        app:layout_constraintStart_toStartOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginEnd="@dimen/defaultMarginLeftRight"
+        android:layout_marginTop="@dimen/defaultMarginTopBottom"
+        android:paddingBottom="@dimen/defaultPaddingBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="@dimen/defaultWidthButton"
+        android:layout_height="@dimen/defaultHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        app:layout_constraintStart_toStartOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="1000dp"
+        android:layout_height="460dp"
+        android:background="@color/light_grey"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toTopOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button_pad_7"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultMarginLeftPad"
+        android:layout_marginTop="@dimen/defaultPaddingTopBetweenPadAndButton"
+        android:text="@string/pad_button_7"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+    <Button
+        android:id="@+id/button_pad_8"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_8"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_7"
+        app:layout_constraintTop_toTopOf="@+id/button_pad_7" />
+    <Button
+        android:id="@+id/button_pad_9"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_9"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_8"
+        app:layout_constraintTop_toTopOf="@+id/button_pad_7" />
+
+    <Button
+        android:id="@+id/button_pad_4"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:text="@string/pad_button_4"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toStartOf="@+id/button_pad_7"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_7" />
+    <Button
+        android:id="@+id/button_pad_5"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_5"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_4"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_7" />
+    <Button
+        android:id="@+id/button_pad_6"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_6"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_5"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_7" />
+
+    <Button
+        android:id="@+id/button_pad_1"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:text="@string/pad_button_1"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toStartOf="@+id/button_pad_4"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_4" />
+    <Button
+        android:id="@+id/button_pad_2"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_2"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_1"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_4" />
+    <Button
+        android:id="@+id/button_pad_3"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_3"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_2"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_4" />
+    <Button
+        android:id="@+id/button_pad_0"
+        android:layout_width="@dimen/defaultWidthPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:text="@string/pad_button_0"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintEnd_toEndOf="@+id/button_pad_2"
+        app:layout_constraintStart_toStartOf="@+id/button_pad_2"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_2" />
+
+    <Button
+        android:id="@+id/button_pad_Annuler"
+        android:layout_width="@dimen/defaultWidthActionPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_annuler"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_9"
+        app:layout_constraintTop_toTopOf="@+id/button_pad_7" />
+
+    <Button
+        android:id="@+id/button_pad_Effacer"
+        android:layout_width="@dimen/defaultWidthActionPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_effacer"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_6"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_7" />
+
+    <Button
+        android:id="@+id/button_pad_Valider"
+        android:layout_width="@dimen/defaultWidthActionPadButton"
+        android:layout_height="@dimen/defaultHeightPadButton"
+        android:layout_marginStart="@dimen/defaultPaddingPad"
+        android:text="@string/pad_button_valider"
+        android:textSize="@dimen/defaultSizePolice"
+        app:layout_constraintStart_toEndOf="@+id/button_pad_3"
+        app:layout_constraintTop_toBottomOf="@+id/button_pad_4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

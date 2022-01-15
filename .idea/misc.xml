@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/ATM/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/MSPR/MSPR_ATM_Kotlin/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/MSPR/MSPR_ATM_Kotlin/app/src/main/res/drawable/bouton_annuler.xml" value="0.202734375" />
+        <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/MSPR/MSPR_ATM_Kotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.202734375" />
+        <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/MSPR/MSPR_ATM_Kotlin/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/MSPR/MSPR_ATM_Kotlin/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/MSPR/MSPR_ATM_Kotlin/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/charl/OneDrive/Bureau/EPSI/MSPR/MSPR_ATM_Kotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19921875" />
       </map>
     </option>
   </component>

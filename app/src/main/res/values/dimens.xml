@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultSizePolice">20sp</dimen>
+
+    <dimen name="defaultMarginLeftRight">200dp</dimen>
+    <dimen name="defaultMarginTopBottom">50dp</dimen>
+    <dimen name="defaultPaddingBottom">20dp</dimen>
+    <dimen name="defaultWidthButton">100dp</dimen>
+    <dimen name="defaultHeightButton">100dp</dimen>
+
+    <dimen name="defaultMarginLeftPad">150dp</dimen>
+    <dimen name="defaultPaddingTopBetweenPadAndButton">60dp</dimen>
+    <dimen name="defaultPaddingPad">10dp</dimen>
+    <dimen name="defaultWidthPadButton">100dp</dimen>
+    <dimen name="defaultWidthActionPadButton">150dp</dimen>
+    <dimen name="defaultHeightPadButton">70dp</dimen>
+</resources>
