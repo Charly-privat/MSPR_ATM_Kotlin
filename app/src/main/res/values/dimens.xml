@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Main page dimens -->
+
     <dimen name="defaultSizePolice">20sp</dimen>
 
     <dimen name="defaultMarginLeftRight">200dp</dimen>
@@ -14,4 +16,11 @@
     <dimen name="defaultWidthPadButton">100dp</dimen>
     <dimen name="defaultWidthActionPadButton">150dp</dimen>
     <dimen name="defaultHeightPadButton">70dp</dimen>
+
+    <!-- Fragment dimens -->
+    <dimen name="MenuSizePolice">30sp</dimen>
+
+    <dimen name="menuWidthButton">350dp</dimen>
+    <dimen name="menuHeightButton">100dp</dimen>
+    <dimen name="menuMarginButton">50dp</dimen>
 </resources>

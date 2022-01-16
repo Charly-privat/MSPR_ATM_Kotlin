@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1000dp"
+    android:layout_height="460dp"
+    android:background="@color/light_grey">
+
+    <TextView
+        android:id="@+id/choice1"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginStart="@dimen/menuMarginButton"
+        android:text="@string/menu_page_retrait"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choice2"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:text="@string/menu_page_consulter"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="@+id/choice1"
+        app:layout_constraintTop_toBottomOf="@+id/choice1" />
+
+    <TextView
+        android:id="@+id/choice3"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:text="@string/menu_page_relever_bancaire"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="@+id/choice1"
+        app:layout_constraintTop_toBottomOf="@+id/choice2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

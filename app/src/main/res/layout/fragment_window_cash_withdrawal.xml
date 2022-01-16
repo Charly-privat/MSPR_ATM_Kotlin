@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1000dp"
+    android:layout_height="460dp"
+    android:background="@color/light_grey">
+
+
+    <TextView
+        android:id="@+id/choice1"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginStart="@dimen/menuMarginButton"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_10_euros"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choice2"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_20_euros"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/choice1"
+        app:layout_constraintTop_toBottomOf="@+id/choice1" />
+
+    <TextView
+        android:id="@+id/choice3"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_30_euros"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/choice1"
+        app:layout_constraintTop_toBottomOf="@+id/choice2" />
+
+    <TextView
+        android:id="@+id/choice4"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_50_euros"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/choice1"
+        app:layout_constraintTop_toBottomOf="@+id/choice3" />
+
+    <TextView
+        android:id="@+id/choice5"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginEnd="@dimen/menuMarginButton"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_70_euros"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choice6"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_80_euros"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/choice5"
+        app:layout_constraintTop_toBottomOf="@+id/choice5" />
+
+    <TextView
+        android:id="@+id/choice7"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_100_euros"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/choice5"
+        app:layout_constraintTop_toBottomOf="@+id/choice6" />
+
+    <TextView
+        android:id="@+id/choice8"
+        android:layout_width="@dimen/menuWidthButton"
+        android:layout_height="@dimen/menuHeightButton"
+        android:layout_marginTop="@dimen/defaultPaddingBottom"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/retrait_page_autre_montant"
+        android:textSize="@dimen/MenuSizePolice"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/choice5"
+        app:layout_constraintTop_toBottomOf="@+id/choice7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
